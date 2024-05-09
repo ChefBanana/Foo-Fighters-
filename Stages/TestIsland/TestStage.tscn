@@ -1,0 +1,67 @@
+[gd_scene load_steps=7 format=3 uid="uid://br6sgi32ioqim"]
+
+[ext_resource type="Texture2D" uid="uid://dn7k1uuseds04" path="res://Stages/TestIsland/StageBasic1.png" id="1_7w5cw"]
+[ext_resource type="Script" path="res://Stages/TestIsland/Placeholders.gd" id="2_xucvt"]
+[ext_resource type="Texture2D" uid="uid://cbgnmdbtghluo" path="res://Stages/TestIsland/AreaMarkers/MarkerRed.png" id="2_yoo4e"]
+[ext_resource type="Texture2D" uid="uid://bg046xk44ksys" path="res://Stages/TestIsland/AreaMarkers/MarkerBlue.png" id="3_o5hx6"]
+[ext_resource type="Texture2D" uid="uid://suyowic1d3fh" path="res://Stages/TestIsland/AreaMarkers/MarkerPurple.png" id="3_p771x"]
+[ext_resource type="Texture2D" uid="uid://dyx1srd0d0o2q" path="res://Stages/TestIsland/AreaMarkers/MarkerBlack.png" id="6_yjwnd"]
+
+[node name="TestStage" type="Node2D"]
+
+[node name="Sprites" type="Node2D" parent="."]
+
+[node name="Platform1" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(960, 600)
+scale = Vector2(20, 20)
+texture = ExtResource("1_7w5cw")
+
+[node name="Placeholders" type="Node2D" parent="Sprites"]
+modulate = Color(1, 1, 1, 0.815686)
+script = ExtResource("2_xucvt")
+
+[node name="MarkerPurple" type="Sprite2D" parent="Sprites/Placeholders"]
+position = Vector2(960.5, 562)
+scale = Vector2(401, 78)
+texture = ExtResource("3_p771x")
+
+[node name="MarkerBlue" type="Sprite2D" parent="Sprites/Placeholders"]
+modulate = Color(0.0784314, 0, 0.890196, 0.592157)
+position = Vector2(960.5, 511.5)
+scale = Vector2(401, 25)
+texture = ExtResource("3_o5hx6")
+
+[node name="AreaMarker2" type="Sprite2D" parent="Sprites/Placeholders"]
+modulate = Color(1, 1, 1, 0.698039)
+position = Vector2(350, 540.5)
+scale = Vector2(710, 1079)
+texture = ExtResource("2_yoo4e")
+
+[node name="AreaMarker5" type="Sprite2D" parent="Sprites/Placeholders"]
+modulate = Color(1, 1, 1, 0.698039)
+position = Vector2(957.5, 117)
+scale = Vector2(501, 232)
+texture = ExtResource("2_yoo4e")
+
+[node name="AreaMarker12983" type="Sprite2D" parent="Sprites/Placeholders"]
+modulate = Color(1, 1, 1, 0.698039)
+position = Vector2(956.5, 903.75)
+scale = Vector2(499, 349.5)
+texture = ExtResource("2_yoo4e")
+
+[node name="AreaMarker54" type="Sprite2D" parent="Sprites/Placeholders"]
+modulate = Color(1, 1, 1, 0.698039)
+position = Vector2(1567.5, 539)
+scale = Vector2(719, 1079)
+texture = ExtResource("2_yoo4e")
+
+[node name="MarkerBlack" type="Sprite2D" parent="Sprites/Placeholders"]
+position = Vector2(1149.25, 511.5)
+scale = Vector2(23.5, 25)
+texture = ExtResource("6_yjwnd")
+
+[node name="MarkerBlack2" type="Sprite2D" parent="Sprites/Placeholders"]
+position = Vector2(772.25, 511.875)
+scale = Vector2(24.5, 25.75)
+texture = ExtResource("6_yjwnd")

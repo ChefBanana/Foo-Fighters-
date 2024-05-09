@@ -1,0 +1,8 @@
+This "README" Is for general changes, I mean, its in the name. Just stuff here
+if there isnt a "README" dedicated to the specific thing your trying to talk
+about. And if the thing at hand gets to big to put in here, make a new "README".
+I'll probably end up scrapping this for something else later on, but this works
+for now. Useless explanation ends here, real notes start now:
+
+
+

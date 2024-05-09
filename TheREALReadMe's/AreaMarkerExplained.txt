@@ -1,0 +1,4 @@
+Red is a blastzone/air
+Blue is walkable ground
+Purple is for walls 
+Black is for ledges, unless text says otherwise.
