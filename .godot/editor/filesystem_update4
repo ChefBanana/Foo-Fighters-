@@ -1,8 +1,2 @@
 res://Stages/TestIsland/TestStage.tscn
-res://TheREALReadMe's/ActuallyReadMePlease.txt
-res://README.md
-res://TheREALReadMe's/GeneralChanges.txt
-res://TheREALReadMe's/AreaMarkerExplained.txt
-res://Stages/TestIsland/Placeholders.gd
-res://Characters/ZakkWylde.tscn
-res://Characters/ZakkWylde/ZakkWylde.tscn
+res://Characters/ZakkWylde/ZakkWylde.gd

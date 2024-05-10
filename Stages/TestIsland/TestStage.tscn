@@ -79,3 +79,21 @@ texture = ExtResource("6_yjwnd")
 [node name="ZakkWylde" parent="." instance=ExtResource("7_niw32")]
 position = Vector2(970, 242)
 scale = Vector2(0.5, 0.5)
+
+[node name="HUD" type="CanvasLayer" parent="ZakkWylde"]
+
+[node name="Health Bar" type="Node2D" parent="ZakkWylde/HUD"]
+
+[node name="RedHealthBar" type="ColorRect" parent="ZakkWylde/HUD/Health Bar"]
+offset_left = 230.0
+offset_top = 20.0
+offset_right = 548.0
+offset_bottom = 55.0
+color = Color(1, 0, 0, 1)
+
+[node name="GreenHealthBar" type="ColorRect" parent="ZakkWylde/HUD/Health Bar"]
+offset_left = 230.0
+offset_top = 15.0
+offset_right = 549.0
+offset_bottom = 55.0
+color = Color(0, 1, 0, 1)
