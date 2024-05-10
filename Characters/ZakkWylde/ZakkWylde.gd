@@ -19,7 +19,7 @@ func _physics_process(delta):
 		velocity.y += gravity * delta
 	if global_position.y > 900:
 		take_damage()
-		velocity.y = JUMP_VELOCITY
+		velocity.y = -1200
 		print("took damage")
 		print(health)
 	if health <= 0:

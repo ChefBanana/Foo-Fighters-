@@ -85,15 +85,15 @@ scale = Vector2(0.5, 0.5)
 [node name="Health Bar" type="Node2D" parent="ZakkWylde/HUD"]
 
 [node name="RedHealthBar" type="ColorRect" parent="ZakkWylde/HUD/Health Bar"]
-offset_left = 230.0
-offset_top = 20.0
-offset_right = 548.0
-offset_bottom = 55.0
+offset_left = 21.0
+offset_top = 26.0
+offset_right = 339.0
+offset_bottom = 61.0
 color = Color(1, 0, 0, 1)
 
 [node name="GreenHealthBar" type="ColorRect" parent="ZakkWylde/HUD/Health Bar"]
-offset_left = 230.0
-offset_top = 15.0
-offset_right = 549.0
-offset_bottom = 55.0
+offset_left = 19.0
+offset_top = 24.0
+offset_right = 338.0
+offset_bottom = 64.0
 color = Color(0, 1, 0, 1)
