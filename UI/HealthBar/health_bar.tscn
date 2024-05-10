@@ -1,0 +1,37 @@
+[gd_scene load_steps=5 format=3 uid="uid://kbnrobprulr8"]
+
+[sub_resource type="Gradient" id="Gradient_qbnwx"]
+offsets = PackedFloat32Array(0, 0.980519)
+colors = PackedColorArray(0, 0, 0, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_ts350"]
+gradient = SubResource("Gradient_qbnwx")
+
+[sub_resource type="Gradient" id="Gradient_37hmb"]
+offsets = PackedFloat32Array(0.084507, 0.584507)
+colors = PackedColorArray(1, 0, 0, 1, 1, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_3848c"]
+gradient = SubResource("Gradient_37hmb")
+width = 689
+
+[node name="HealthBar" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="HealthBackground" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -7.0
+offset_top = -7.0
+offset_right = 696.0
+offset_bottom = 71.0
+texture = SubResource("GradientTexture2D_ts350")
+
+[node name="HealthProgress" type="TextureProgressBar" parent="."]
+layout_mode = 0
+offset_right = 689.0
+offset_bottom = 64.0
+value = 100.0
+texture_progress = SubResource("GradientTexture2D_3848c")

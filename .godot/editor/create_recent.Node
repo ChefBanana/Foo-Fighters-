@@ -1,7 +1,13 @@
+Node
+Label
+CanvasLayer
+TextureRect
+TextureProgressBar
+Control
+ProgressBar
 CollisionShape2D
 CharacterBody2D
 StaticBody2D
 CollisionPolygon2D
 Node2D
-Node
 Sprite2D

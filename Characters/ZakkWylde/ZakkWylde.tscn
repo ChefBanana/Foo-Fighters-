@@ -6,7 +6,7 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3q7nn"]
 size = Vector2(260, 340)
 
-[node name="ZakkWylde" type="CharacterBody2D"]
+[node name="ZakkWylde" type="CharacterBody2D" groups=["characters"]]
 position = Vector2(960, 760)
 collision_mask = 29
 script = ExtResource("1_o2kq0")
