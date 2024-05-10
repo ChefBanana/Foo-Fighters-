@@ -24,6 +24,7 @@ func _physics_process(delta):
 		print(health)
 	if health <= 0:
 		print("death")
+		die()
 
 	# Handle jump.
 	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
@@ -44,7 +45,11 @@ func take_damage():
 	var health_percentage = health / 12.0
 	health_bar.size.x = health_percentage * 319
 	
-	
+func die():
+	# Reload the current scene
+	var current_scene = get_tree().get_current_scene()
+	get_tree().reload_current_scene()
+
 
 
 	
